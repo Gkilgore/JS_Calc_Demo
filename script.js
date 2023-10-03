@@ -15,22 +15,28 @@ function numButPress(num) {
 
 }
 
-function mathButPress(operator){
+function mathButPress(operator) {
 
 }
 
-function equalButPress(){
+function equalButPress() {
 
 }
 
-function clearButPress(){
+function clearButPress() {
+    prevVal = ''
+    newVal = ''
+    resultVal = ''
+    mathOperator = ''
+    decimalClicked = false
+    valMemStored = ''
+    document.getElementById('entry').value = '0'
+}
+
+function copyButPress() {
 
 }
 
-function copyButPress(){
+function pasteButPress() {
 
-}
-
-function pasteButPress(){
-    
 }

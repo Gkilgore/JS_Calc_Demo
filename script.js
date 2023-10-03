@@ -22,14 +22,13 @@ function mathButPress(operator) {
 function equalButPress() {
 
 }
-
+//clears everything EXCEPT Memory
 function clearButPress() {
     prevVal = ''
     newVal = ''
     resultVal = ''
     mathOperator = ''
     decimalClicked = false
-    valMemStored = ''
     document.getElementById('entry').value = '0'
 }
 
